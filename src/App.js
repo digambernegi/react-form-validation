@@ -50,28 +50,27 @@ const inputs=[{
   label:"Message",
   placeholder:"Message",
 }
-]
+];
 
-  const handleSubmit=(e)=>{
-    e.preventDefault();
+  const handleSubmit = (e) => {
+    e.target.reset();
+    e.target.preventDefault();
+  };
+
+  const onChange = (e) => {
+    setFields({...fields,[e.target.name]: e.target.value});
   }
 
-  const onChange=(e)=>{
-    setFields({...fields,[e.target.name]:e.target.value});
-  }
-
-  console.log(fields)
-  return (
+     return (
     <div className="app">
     <h1>Contact form</h1>
-    <form action="" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
     {inputs.map((input) =>(
-      <Form key={input.id} {...input} values={input.name} onChange={onChange}/>
+      <Form key={input.id} {...input} value={fields[input.name]} onChange={onChange}/>
     ))}
-       <button>send</button>
+       <button>Send</button>
 
     </form>
-    
     </div>
   );
 }

@@ -22,17 +22,18 @@ h1{
  width: 350px;
  padding: 0 40px;
 }
+
 form{
+    max-width: fit-content;
     color: white;
     padding: 20px 20px;
-    margin: 20px 20rem;
     border-radius:10px;
     background-color: rgba(255, 255, 255, 0.411);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    place-items: center;
     text-align: left;
+    margin:2rem auto;
+  
 }
 
 input{
@@ -43,16 +44,19 @@ input{
     border: none;
 
 }
-label{
-  
-}
+
 
 span{
   color: red;
   display: none;
+  font-size: 13px;
 }
 
-input:invalid ~ span{
+input:invalid[focused='true']{
+  border: 1px solid red;
+}
+
+input:invalid[focused='true'] ~ span{
 display: block;
 }
 
@@ -64,7 +68,6 @@ button{
   outline: none;
   border-radius: 7px;
   transition: all .5s ease;
-
 }
 
 button:hover{
