@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-form-validation/static/css/main.5ffe5388.chunk.css",
+    "main.js": "/react-form-validation/static/js/main.ef688b00.chunk.js",
+    "main.js.map": "/react-form-validation/static/js/main.ef688b00.chunk.js.map",
+    "runtime-main.js": "/react-form-validation/static/js/runtime-main.26f0ee3b.js",
+    "runtime-main.js.map": "/react-form-validation/static/js/runtime-main.26f0ee3b.js.map",
+    "static/js/2.e51f8f3c.chunk.js": "/react-form-validation/static/js/2.e51f8f3c.chunk.js",
+    "static/js/2.e51f8f3c.chunk.js.map": "/react-form-validation/static/js/2.e51f8f3c.chunk.js.map",
+    "static/js/3.bd679c4b.chunk.js": "/react-form-validation/static/js/3.bd679c4b.chunk.js",
+    "static/js/3.bd679c4b.chunk.js.map": "/react-form-validation/static/js/3.bd679c4b.chunk.js.map",
+    "index.html": "/react-form-validation/index.html",
+    "static/css/main.5ffe5388.chunk.css.map": "/react-form-validation/static/css/main.5ffe5388.chunk.css.map",
+    "static/js/2.e51f8f3c.chunk.js.LICENSE.txt": "/react-form-validation/static/js/2.e51f8f3c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26f0ee3b.js",
+    "static/js/2.e51f8f3c.chunk.js",
+    "static/css/main.5ffe5388.chunk.css",
+    "static/js/main.ef688b00.chunk.js"
+  ]
+}
